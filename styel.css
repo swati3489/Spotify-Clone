@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+font-family: "Merriweather", serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+background-color: black;  
+
+color: rgb(85, 213, 85);
+}
+    nav ul li{
+        padding: 0 12px;
+    }
+
+
+.brand img{
+    width: 70px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding: 0 15px;
+}
+.container{
+        min-height: 68vh;
+        background-color: black;
+        color: rgb(85, 213, 85);
+        font-family: "Noto Sans",
+        sans-serif;
+        display: flex;
+        margin: 23px auto;
+        width: 70%;
+        border-radius: 12px;
+        padding: 30px;
+        background-image: url('cover/img.jpg');
+
+}
+
+
+.bottom{
+    position: sticky;
+    height: 12vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(85, 213, 85);
+    bottom: 0;
+    flex-direction: column;
+    }
+
+    .icons{
+        margin: 10px;
+    }
+    .icons i{
+        cursor: pointer;
+        font-size: 30px;
+    }
+#myProgressBar{
+    width: 80vw;
+    
+    cursor: pointer;
+}
+
+.songItemcontainer{
+    margin-top: 60px;
+}
+.songItem{
+    height: 46px;
+    display: flex;
+   width: 90%;
+    background-color: white;
+    color: rgb(18, 50, 18);
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+.songItem img{
+    width: 40px;
+    margin:  23px 0;
+    border-radius: 25px;
+}
+.timestamp{
+    margin: 0 30px;
+   
+}
+.timestam i {
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+font-family: "Noto Sans",
+        sans-serif;
+    }
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
